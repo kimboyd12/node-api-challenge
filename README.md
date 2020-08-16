@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 -   [ ] Mention two parts of Express that you learned about this week.
 
+        We learned about Express middleware and routing.    
+
 -   [ ] Describe Middleware?
+
+        Middleware functions can get the req/res objects and then operate /tigger actions on those objects. Middleware helps by having a reusable function to use in our API.
 
 -   [ ] Describe a Resource?
 
+        Everything is a resource when making a RESTful API. Resources are accessible through a unique URL. You manage resources through HTTP methods.
+
 -   [ ] What can the API return to help clients know if a request was successful?
 
+        It would return a status code like 200 which is a successful request.
+
 -   [ ] How can we partition our application into sub-applications?
+
+        We use Express routers which behave like a mini express app inside of an already existing express app. 
 
 ## Minimum Viable Product
 
