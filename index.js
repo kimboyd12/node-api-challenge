@@ -12,9 +12,9 @@ server.use("/api/projects", projectsRouter)
 server.use("/api/actions", actionsRouter)
 
 
-// server.get('/', (req, res) => {
-//     res.status(200).json("Hello!")
-// })
+server.get('/', (req, res) => {
+    res.status(200).json("Hello, Welcome to my API!")
+})
 
 
 // logger middleware
